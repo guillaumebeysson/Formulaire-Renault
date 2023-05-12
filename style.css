@@ -51,3 +51,20 @@ select{
     margin-top: 5px;
     margin-bottom: 10px;
 }
+.validBtn{
+    text-align: center;
+}
+button{
+    margin: 10px 0;
+    padding:10px;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #fAfAfA;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: #fAfAfA;
+}
