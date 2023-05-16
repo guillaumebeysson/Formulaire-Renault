@@ -37,20 +37,20 @@ form{
 }
 .labelInput input{
     width: 200px;
-    height: 25px;
+    height: 30px;
     padding: 2px;
 }
 select{
     width: 200px;
-    height: 25px;
+    height: 30px;
     padding: 2px;
 }
 .labelInput{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .validBtn{
     text-align: center;
@@ -68,4 +68,21 @@ button{
 button:hover{
     background-color: black;
     color: #fAfAfA;
+}
+#M{
+    display: flex;
+    align-items: center;
+}
+#Mme{
+    display: flex;
+    align-items: center;
+}
+#M input{
+    width: 50px;
+    height: 20px;
+}
+#Mme input{
+    width: 50px;
+    height: 20px;
+
 }
